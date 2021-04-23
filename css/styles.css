@@ -1,0 +1,105 @@
+/********** Base styles **********/
+* {
+    box-sizing: border-box;
+  }
+  h1 {
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: cursive;
+
+  }
+  body{
+      background-color:#999b84;
+  }
+  
+.title{
+    position:absolute;
+    display: block;
+    right: 0px;
+    top: 0px;
+    width: 100px;
+    margin: 6px;
+    font-family: cursive;
+    font-size: 150%;
+    border-radius: 5px;
+    background-color:#926e6f;
+
+}
+
+.desc{
+    position:relative;
+    top: 15px;
+    padding: 5px;
+    font-family: OCR A Std, monospace ;
+  }
+.container{
+    background-color:#ca8a8b;
+    position: relative;
+    border-radius: 5px;
+
+
+  }
+  /* Simple Responsive Framework. */
+  .row {
+    width: 100%;
+  }
+  
+  /********** Large devices only **********/
+  @media (min-width: 992px ) {
+    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+      float: left;
+      border: 1px solid green;
+      margin: 5px;
+      display:block;
+      min-height:250px;      
+    }
+    .col-lg-4 {
+      width:  calc(33.33% - 10px);
+    }
+    .col-lg-6 {
+      width: 50%;
+    }
+    .col-lg-12 {
+      width: 100%;
+    }
+  }
+  
+  /********** Medium devices only **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+    .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+      float: left;
+      border: 1px solid green;
+      margin: 5px;
+      display:block;
+      min-height:250px;    
+    }
+    .col-md-4 {
+      width: 33.33%;
+    }
+    .col-md-6 {
+        width:  calc(50% - 10px);
+    }
+    .col-md-12 {
+        width:  calc(100% - 10px); 
+    }
+  }
+  
+  /********** Phone  devices only **********/
+  @media (max-width: 767px){
+    .col-sd-1, .col-sd-2, .col-sd-3, .col-sd-4, .col-sd-5, .col-sd-6, .col-sd-7, .col-sd-8, .col-sd-9, .col-sd-10, .col-sd-11, .col-sd-12 {
+      float: left;
+      border: 1px solid green;
+      margin: 5px;
+      display:block;
+      min-height:170px;  
+    }
+    .col-sd-4 {
+      width: 33.33%;
+    }
+    .col-sd-6 {
+      width: 50%;
+    }
+    .col-sd-12 {
+        width:  calc(100% - 10px)
+    }
+  }
