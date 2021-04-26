@@ -19,6 +19,8 @@
     top: 0px;
     width: 100px;
     margin: 6px;
+    padding: 2px;
+    text-align: center;
     font-family: cursive;
     font-size: 150%;
     border-radius: 5px;
@@ -32,12 +34,13 @@
   object-position:center;
   top: 45px;
   padding: 5px 0;
+  margin-bottom: 5px;
 
 }
 .desc{
     position:relative;
-    top: 15px;
-    padding: 5px;
+    top: 20px;
+    padding: 10px;
     font-family: OCR A Std, monospace ;
   }
 .container{
